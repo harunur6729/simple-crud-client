@@ -57,7 +57,7 @@ function App() {
           <br />
           
           <input
-            className="bg-yellow-200 px-3 rounded-full mt-3"
+            className="bg-yellow-200 hover:bg-lime-500 font-bold px-3 rounded-full mt-3"
             type="submit"
             value="Add User"
           /> 
@@ -65,7 +65,7 @@ function App() {
         </form>
       </div>
       <div className="col-span-2 ">
-        <Link className=" flex bg-green-500 px-4 py-2 rounded-full font-bold" to="/users"><FaArrowRight /> All Users</Link>
+        <Link className=" flex items-center bg-green-500 px-4 py-2 rounded-full font-bold hover:bg-lime-300" to="/users"><FaArrowRight /> All Users</Link>
       </div>
     </div>
   );

@@ -27,7 +27,7 @@ const Users = () => {
       </div>
     </div>
     <div className="col-span-2">
-        <Link  className=" flex  items-center font-bold bg-blue-600 px-4 py-2 rounded-full" to='/'> <FaArrowRight></FaArrowRight> Home</Link>
+        <Link  className=" flex  items-center font-bold bg-blue-600 px-4 py-2 rounded-full hover:bg-zinc-500" to='/'> <FaArrowRight></FaArrowRight> Home</Link>
     </div>
     </div>
   );
